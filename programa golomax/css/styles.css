@@ -1,33 +1,34 @@
-body{
+body {
   background-color: #110f0fea;
 }
-header, .alert{
+header,
+.alert {
   z-index: 100;
 }
-.description{
+.description {
   height: 25px;
   overflow: hidden;
-  transition: height .3s ease-in .3s;
+  transition: height 0.3s ease-in 0.3s;
 }
-.description:hover{
+.description:hover {
   height: 80px;
 }
-.carrito{
+.carrito {
   min-height: 80vh;
   max-width: 1000px;
   margin: 0 auto;
   width: 100%;
 }
-.table__productos{
+.table__productos {
   display: flex;
 }
-.table__productos > img{
+.table__productos > img {
   width: 9rem;
   object-fit: contain;
   border-radius: 6px;
   margin-right: 20px;
 }
-.table__cantidad > input{
+.table__cantidad > input {
   width: 40px;
   border: none;
   outline: 0;
@@ -36,6 +37,10 @@ header, .alert{
   margin-right: 30px;
   margin-bottom: 20px;
 }
-.hide, .remove{
+.hide,
+.remove {
   display: none;
+}
+.titulo {
+  color: aqua;
 }
