@@ -28,7 +28,8 @@ function addItemCarrito(newItem) {
 
   setTimeout(function () {
     alert.classList.add("hide");
-  }, 2000);
+    Swal.fire("producto agregado al carrito!", "", "success");
+  });
   alert.classList.remove("hide");
 
   const InputElemnto = tbody.getElementsByClassName("input__elemento");
@@ -105,7 +106,12 @@ function removeItemCarrito(e) {
 
   setTimeout(function () {
     alert.classList.add("remove");
-  }, 2000);
+    Swal.fire({
+      icon: "error",
+      title: "producto eliminado",
+      text: "",
+    });
+  });
   alert.classList.remove("remove");
 
   tr.remove();

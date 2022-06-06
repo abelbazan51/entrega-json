@@ -41,6 +41,32 @@
         </li>
         <li class="nav-item" role="presentation">
           <a
+            class="nav-link "
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="false"
+            >bebidas</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link producto"
+            id="pills-producto-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-producto"
+            type="button"
+            role="tab"
+            aria-controls="pills-producto"
+            aria-selected="false"
+            >Pizzas</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
             class="nav-link"
             id="pills-contact-tab"
             data-bs-toggle="pill"
@@ -54,12 +80,18 @@
         </li>
       </ul>
     </header>
-
     <div
-      class="alert container position-sticky top-0 alert-danger remove"
+    class="alert  hide
+    "
+    role="alert"
+  >
+
+  </div>
+    <div
+      class="alert  remove"
       role="alert"
     >
-      Producto removido!
+    
     </div>
 
     <div class="tab-content" id="pills-tabContent">
@@ -69,7 +101,8 @@
         role="tabpanel"
         aria-labelledby="pills-home-tab"
       >
-        1
+              
+        </a>
       </div>
       <div
         class="tab-pane fade show active container"
@@ -260,6 +293,83 @@
           </div>
         </div>
       </div>
+      <!-- aca empiesa la seccion pizza-->
+      <div
+      class="tab-pane fade carrito"
+      id="pills-producto"
+      role="tabpanel"
+      aria-labelledby="pills-producto-tab"
+    >
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+        <h5 class="titulo card-title pt-2 text-center text-primary">
+          muzzarella
+        </h5>
+        <img src="./img/pizza1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text text-white-50 description">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <h5 class="text-primary">
+            Precio: <span class="precio">$ 500</span>
+          </h5>
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary button">
+              Añadir a Carrito
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+        <h5 class="titulo card-title pt-2 text-center text-primary">
+          calabresa
+        </h5>
+        <img src="./img/pizza2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text text-white-50 description">
+            Some quick example text to build on the card title and make up
+            the bulk of the card's content.
+          </p>
+          <h5 class="text-primary">
+            Precio: <span class="precio">$ 600</span>
+          </h5>
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary button">
+              Añadir a Carrito
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col d-flex justify-content-center mb-4">
+      <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
+        <h5 class="titulo card-title pt-2 text-center text-primary">
+          napolitana
+        </h5>
+        <img src="./img/pizza_napolitana_32625_orig.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <p class="card-text text-white-50 description">
+       pizza napolitana s
+          </p>
+          <h5 class="text-primary">
+            Precio: <span class="precio">$ 650</span>
+          </h5>
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary button">
+              Añadir a Carrito
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+        </div>
+<!--aca termina la seccion pizza -->
+
+
+<!--aca empiesa la seccion carrito-->
       <div
         class="tab-pane fade carrito"
         id="pills-contact"

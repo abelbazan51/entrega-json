@@ -5,11 +5,15 @@ header,
 .alert {
   z-index: 100;
 }
+.tab-content {
+  background-color: #8c0c7d;
+}
 .description {
   height: 25px;
   overflow: hidden;
   transition: height 0.3s ease-in 0.3s;
 }
+
 .description:hover {
   height: 80px;
 }
@@ -42,5 +46,5 @@ header,
   display: none;
 }
 .titulo {
-  color: aqua;
+  color: rgb(52, 193, 193);
 }
