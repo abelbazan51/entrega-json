@@ -13,7 +13,15 @@ header,
   overflow: hidden;
   transition: height 0.3s ease-in 0.3s;
 }
-
+.card-img-top {
+  height: 100%;
+}
+.card-img-top {
+  width: 96%;
+}
+.swal2-confirm {
+  margin: 10px;
+}
 .description:hover {
   height: 80px;
 }
@@ -21,7 +29,7 @@ header,
   min-height: 80vh;
   max-width: 1000px;
   margin: 0 auto;
-  width: 100%;
+  width: 99%;
 }
 .table__productos {
   display: flex;

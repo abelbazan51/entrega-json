@@ -36,18 +36,18 @@
             role="tab"
             aria-controls="pills-profile"
             aria-selected="false"
-            >Productos</a
+            >lo mas vendido</a
           >
         </li>
         <li class="nav-item" role="presentation">
           <a
             class="nav-link "
-            id="pills-home-tab"
+            id="pills-bebidas-tab"
             data-bs-toggle="pill"
             data-bs-target="#pills-home"
             type="button"
             role="tab"
-            aria-controls="pills-home"
+            aria-controls="pills-bebidas"
             aria-selected="false"
             >bebidas</a
           >
@@ -75,7 +75,9 @@
             role="tab"
             aria-controls="pills-contact"
             aria-selected="false"
-            >Carrito</a
+            >Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg> </a
           >
         </li>
       </ul>
@@ -110,6 +112,29 @@
         role="tabpanel"
         aria-labelledby="pills-profile-tab"
       >
+    <!-- ejemplo after class-->  
+<form class="formcaja">
+  <input type="text" placeholder="busca por ID" id="busquedaid">
+  <input type="text" placeholder="busca por nombre" id="busquedanombre">
+  <button>buscar</button>
+</form>
+
+<div class="caja"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ejemplo after class-->
         <h2 class="h4 m-4 text-primary">Productos</h2>
 
         <div
@@ -118,20 +143,23 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 1
+              hamburguesa simple
               </h5>
               <img src="./img/platillo1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+               medallon de carne ,cheddar,panceta ,lechuga y tomate
                 </p>
+                
                 <h5 class="text-primary">
-                  Precio: <span class="precio">$ 5</span>
+                  Precio: <span class="precio">$ 450</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -140,20 +168,22 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 2
+                coca-cola 
               </h5>
-              <img src="./img/platillo2.jpg" class="card-img-top" alt="..." />
+              <img src="./img/coca-cola-225L-almacen-gaseosas-casa-segal-mendoza-600x600.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              gaseosa de 2.5lts
                 </p>
                 <h5 class="text-primary">
-                  Precio: <span class="precio">$ 5</span>
+                  Precio: <span class="precio">$ 270</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -162,20 +192,22 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 3
+                pizza de muzzarella
               </h5>
-              <img src="./img/platillo3.jpg" class="card-img-top" alt="..." />
+              <img src="./img/pizza1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+              clasica pizza muzzarella
                 </p>
                 <h5 class="text-primary">
-                  Precio: <span class="precio">$ 5</span>
+                  Precio: <span class="precio">$ 460</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -184,20 +216,22 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 4
+                hamburguesa doble 
               </h5>
-              <img src="./img/platillo4.jpg" class="card-img-top" alt="..." />
+              <img src="./img/hamburguesa doble.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                 doble medallon de carne , lechuga , tomate , panceta , cheddar 
                 </p>
                 <h5 class="text-primary">
                   Precio: <span class="precio">$ 5</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -206,20 +240,21 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 5
-              </h5>
-              <img src="./img/platillo5.jpg" class="card-img-top" alt="..." />
+conogol helado              </h5>
+              <img src="./img/CONOGOL.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                CLASICO HELADO CONOGOL
                 </p>
                 <h5 class="text-primary">
                   Precio: <span class="precio">$ 5</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -228,20 +263,22 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 6
+                cono de papas
               </h5>
-              <img src="./img/platillo1.jpg" class="card-img-top" alt="..." />
+              <img src="./img/cono de papas.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  cono de papas chico 
                 </p>
                 <h5 class="text-primary">
-                  Precio: <span class="precio">$ 5</span>
+                  Precio: <span class="precio">$ 200</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -250,20 +287,23 @@
           <div class="col d-flex justify-content-center mb-4">
             <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem">
               <h5 class="titulo card-title pt-2 text-center text-primary">
-                Card title 7
+                bandeja de papas 
               </h5>
-              <img src="./img/platillo2.jpg" class="card-img-top" alt="..." />
+              <img src="./img/bandeja de papas.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text text-white-50 description">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                bandeja de papas con cheddar
                 </p>
                 <h5 class="text-primary">
-                  Precio: <span class="precio">$ 5</span>
+                  Precio: <span class="precio">$ 400
+                  </span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -281,11 +321,14 @@
                   the bulk of the card's content.
                 </p>
                 <h5 class="text-primary">
-                  Precio: <span class="precio">$ 5</span>
+                  Precio: <span class="precio">$ 250</span>
                 </h5>
                 <div class="d-grid gap-2">
                   <button class="btn btn-primary button">
-                    Añadir a Carrito
+                    Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                      <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -316,7 +359,10 @@
           </h5>
           <div class="d-grid gap-2">
             <button class="btn btn-primary button">
-              Añadir a Carrito
+              Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
             </button>
           </div>
         </div>
@@ -338,7 +384,10 @@
           </h5>
           <div class="d-grid gap-2">
             <button class="btn btn-primary button">
-              Añadir a Carrito
+              Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
             </button>
           </div>
         </div>
@@ -359,8 +408,12 @@
           </h5>
           <div class="d-grid gap-2">
             <button class="btn btn-primary button">
-              Añadir a Carrito
+              Añadir a Carrito <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+              </svg>
             </button>
+            
           </div>
         </div>
       </div>
@@ -395,7 +448,9 @@
           </div>
           <div class="col d-flex justify-content-end">
             <button class="btnalerta btn btn-success" id="btnalerta">
-              COMPRAR
+              COMPRAR <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+              </svg> 
             </button>
           </div>
         </div>
@@ -406,8 +461,9 @@
       <p class="text-center m-0 text-muted">
         programa golomax ,,, creado por Abel Bazan
       </p>
-    </footer>
+   </footer>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
     <script
       src="https://code.jquery.com/jquery-3.5.1.js"
       integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
