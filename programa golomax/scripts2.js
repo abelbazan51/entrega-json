@@ -1,3 +1,7 @@
-fetch("./datos.json")
-  .then((resp) => JSON())
-  .then((data) => console.log(data));
+let array = [];
+
+fetch("./datos.json|")
+  .then((resp) => resp.JSON())
+  .then((data) => {
+    array = data;
+  });
